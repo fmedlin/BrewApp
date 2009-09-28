@@ -1,0 +1,6 @@
+#ifndef brewapp_BID
+#define brewapp_BID
+
+#define AEECLSID_BREWAPP        0x003C4482
+
+#endif //brewapp_BID

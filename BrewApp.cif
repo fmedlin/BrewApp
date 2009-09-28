@@ -1,0 +1,20 @@
+include "BrewApp.bid"
+
+ModRsc {
+   id    = 20, -- Applet base resource id
+   type  = 1,  --RESTYPE_ENCSTRING (see AEEResType.h)
+   data  = EncStringRscData(0xff, "BrewApp")
+}
+
+ModRsc {
+   id    = 21,
+   type  = 6, --RESTYPE_MIMETYPED (see AEEResType.h)
+   data  = ImageRscData("image/png", BytesOfFile("BrewApp_ico.png"))
+}
+
+Applet {
+   appletid       =  AEECLSID_BREWAPP,
+   resbaseid      =  20, -- Applet base resource id
+   applethostid   =  0,
+   type           =  0,
+}
