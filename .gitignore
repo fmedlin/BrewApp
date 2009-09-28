@@ -1,7 +1,8 @@
-*.vcproj.*.user
-*.ncb
 *.aps
-*.suo
-Debug/**
+*.bar
 *.dll
+*.ncb
+*.suo
+*.vcproj.*.user
+Debug/**
 
