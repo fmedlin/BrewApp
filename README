@@ -1,0 +1,5 @@
+BrewApp - A 'Hello, World' C++ app for Brew in VisualStudio.
+
+This was created with the Brew MP 1.0 SDK 4.
+The SDK does not include a C++ template for VisualStudio (only a C template).
+
