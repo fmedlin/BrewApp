@@ -1,5 +1,4 @@
 #include "BrewApp.h"
-
 #include "BrewApp.bid"
 #include "BrewApp_res.h"
 
